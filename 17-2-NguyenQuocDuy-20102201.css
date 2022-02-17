@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            margin: auto;
+            padding: 0px;
+        }
+        .wrapper{
+            height: 700px;
+            width: 1089px;
+            background-color:whitesmoke;
+        }
+        header{
+            height: 150px;
+            width: 100%;
+            background-color:green;
+        }
+        nav{
+            height: 50px;
+            width: 100%;
+            background-color: gold;
+        }
+        aside{
+            height: 350px;
+            width: 30%;
+            background-color:orangered;
+            float: left;
+        }
+        section{
+            height: 350px;
+            width: 35%;
+            background-color:deeppink;
+            float: left;
+        }
+        section2{
+            height: 350px;
+            width: 35%;
+            background-color:chartreuse;
+           float: right;
+        }
+        footer{
+            height: 150px;
+            width: 100%;
+            background-color: red;
+            clear: both;
+        }
+        
+
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header><h1>header</h1></header>
+        <nav><h1>menu</h1>
+        </nav>
+            <aside>
+                <h1>30%</h1>
+                <h1>Content</h1>
+            </aside>
+            <section>
+                <h1>section1</h1>
+            </section>
+            <section2>
+                <h1>section2</h1>
+            </section2>
+        <footer><h1>footer</h1></footer>
+    </div>
+</body>
+</html>
